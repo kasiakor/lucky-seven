@@ -103,6 +103,18 @@ a:link {
 		background-color: rgb(119, 97, 48);
 		border-radius: 8px;
 	}
+
+.featured-info h3 {
+	border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.top-info p {
+	font-style: italic;
+}
+
+.gallery {
+	margin-top: 30px;
+}
 /*---------------------------
 		LOGO STYLES
 -----------------------------*/
@@ -151,17 +163,19 @@ a:link {
  		color: rgb(172, 140, 71);
  	}
  /*---------------------------
-		HOME PAGE STYLES
+		EXOPLANETS PAGE STYLES
 -----------------------------*/
-
-.featured-info h3 {
-	border-bottom: 1px solid rgb(128, 128, 128);
-}
-
-.top-info p {
+.exoplanets-page .featured-info ul {
 	font-style: italic;
 }
 
+.exoplanets-page .featured-info li {
+	list-style: none;
+}
+
+.exoplanets-page .featured-info p span {
+	color: rgb(172, 140, 71);
+}
 /*---------------------------
 		GLOBAL FOOTER STYLE
 -----------------------------*/
