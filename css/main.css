@@ -287,6 +287,7 @@ a:link {
 -----------------------------*/
 .exoplanets-page .featured-info ul {
 	font-style: italic;
+	padding-left: 0;
 }
 
 .exoplanets-page .featured-info li {
@@ -296,6 +297,23 @@ a:link {
 .exoplanets-page .featured-info p span {
 	color: rgb(172, 140, 71);
 }
+
+@media screen and (min-width: 1050px) {
+	.exoplanets-page .featured-info {
+		float: none;
+		width: 100%;
+	}
+	.exoplanets-page .landing {
+		float: left;
+		text-align: left;
+		width: 56%;
+	}
+	.exoplanets-page .sidebar {
+		float: right;
+		width: 39%;
+	}
+}
+	
 /*---------------------------
 		GLOBAL FOOTER STYLE
 -----------------------------*/
