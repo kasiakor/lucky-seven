@@ -164,6 +164,7 @@ a:link {
 
 @media screen and (min-width: 750px) {
 	.landing h1 {
+		margin-left: 20px;
 		text-align: left;
 	}
 
