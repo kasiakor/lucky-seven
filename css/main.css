@@ -12,19 +12,21 @@ BLACK: rgb(15,15,15)
 -----------------------------*/
 
 body {
-	font-size: 19px;
+	font-size: 15px;
 	font-family: 'Rubik', sans-serif;
 	color: rgb(226, 226, 226);
 	background: rgb(15, 15, 15);
 	background-image: url("../img/bg-img.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 2% 6% 6% 6%;
+	padding: 0;
+	margin: 0;
 }
 
 @media screen and (min-width: 750px) {
 	body {
 		font-size: 1.2em;
+		padding: 2% 6% 6% 6%;
 	}
 }
 .container {
@@ -39,35 +41,53 @@ h1, h2, h3 {
  }
 
 h1 {
-	font-size: 3.3684em;
-	line-height: 1.2656em;
-	margin-top: 0.4219em;
+	font-size: 2em;
+	line-height: 1.25em;
+	margin-top: 0.42em;
 	margin-bottom: 0;
 	color: rgb(172, 140, 71);
 }
 
 h2 {
-	font-size: 1.5em;
-	line-height: 1.2558em;
-	margin: 0.4219em auto 0.4219em auto;
+	font-size: 1.625em;
+	line-height: 1.15em;
+	margin: 0.42em auto 0.42em auto;
 }
 
 h3 {
-	font-size: 1.5263em;
+	font-size: 1.375em;
 	font-weight: normal;
-	line-height: 1.8621em;
+	line-height: 1.136em;
 	margin-top: 0.9319em;
 	margin-bottom: 0;
 
 }
 
+@media screen and (min-width: 750px) {
+	h1 {
+		font-size: 3em;
+		line-height: 1.05em;
+	}
+
+	h2 {
+		font-size: 2.25em;
+		line-height: 1.25em;
+	}
+
+	h3 {
+		font-size: 1.75em;
+		line-height: 1.25em;
+	}
+
+}
+
 p {
 	font-size: 1em;
-	line-height: 1.4211em;
-	margin-top: 1.4211em;
+	line-height: 1.25em;
+	margin-top: 1.42em;
 	margin-bottom: 0;
 	font-weight: 100;
-	text-align: justify;
+	text-align: left;
 }
 
 li {
@@ -171,7 +191,6 @@ a:link {
 	.landing p {
 		margin-left: 20px;
     	margin-right: 20px;
-    	text-align: justify;
     	 
 	}
 }
@@ -270,7 +289,7 @@ a:link {
 
 .trappist-page .featured-info {
 	float: none;
-	text-align: justify;
+	text-align: left;
 	margin-left: auto;
 	margin-right: auto; 
 }
