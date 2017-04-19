@@ -21,6 +21,7 @@ body {
 	background-size: cover;
 	padding: 0;
 	margin: 0;
+	text-rendering: optimizeLegibility;
 }
 
 @media screen and (min-width: 750px) {
